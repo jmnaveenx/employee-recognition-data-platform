@@ -1,0 +1,51 @@
+employee_id,employee_name,email,department,designation,manager_id,location,joining_date,status
+EMP001,Raj Kumar,raj.kumar@company.com,Engineering,Engineering Manager,,Chennai,2020-01-10,ACTIVE
+EMP002,Priya Menon,priya.menon@company.com,Product,Product Manager,,Chennai,2019-04-15,ACTIVE
+EMP003,Suresh Iyer,suresh.iyer@company.com,Finance,Finance Manager,,Chennai,2018-07-20,ACTIVE
+EMP004,Meena Joseph,meena.joseph@company.com,Human Resources,HR Manager,,Chennai,2021-02-12,ACTIVE
+EMP005,Arun Nair,arun.nair@company.com,Sales,Sales Manager,,Bengaluru,2019-09-05,ACTIVE
+EMP006,Divya Rao,divya.rao@company.com,Customer Success,Customer Success Manager,,Hyderabad,2020-11-18,ACTIVE
+EMP007,Karthik Raman,karthik.raman@company.com,Operations,Operations Manager,,Chennai,2017-06-22,ACTIVE
+EMP008,Anita Das,anita.das@company.com,Marketing,Marketing Manager,,Bengaluru,2022-01-10,ACTIVE
+EMP009,Vikram Shah,vikram.shah@company.com,Data & Analytics,Data Manager,,Chennai,2018-03-08,ACTIVE
+EMP010,Lakshmi Krishnan,lakshmi.krishnan@company.com,Information Security,Security Manager,,Hyderabad,2019-12-02,ACTIVE
+EMP011,Amit Sharma,amit.sharma@company.com,Engineering,Developer,EMP001,Chennai,2020-02-07,ACTIVE
+EMP012,Neha Patel,neha.patel@company.com,Engineering,Senior Developer,EMP001,Chennai,2020-03-15,ACTIVE
+EMP013,Ravi Reddy,ravi.reddy@company.com,Engineering,Business Analyst,EMP001,Chennai,2020-04-21,ACTIVE
+EMP014,Kiran Gupta,kiran.gupta@company.com,Engineering,QA Engineer,EMP001,Chennai,2020-05-28,ACTIVE
+EMP015,Vijay Joshi,vijay.joshi@company.com,Engineering,Data Analyst,EMP001,Chennai,2020-07-04,ACTIVE
+EMP016,Sneha Verma,sneha.verma@company.com,Engineering,DevOps Engineer,EMP001,Chennai,2020-08-10,ACTIVE
+EMP017,Manoj Singh,manoj.singh@company.com,Engineering,Developer,EMP001,Chennai,2020-09-16,ACTIVE
+EMP018,Deepa Nair,deepa.nair@company.com,Engineering,Senior Developer,EMP001,Chennai,2020-10-23,ACTIVE
+EMP019,Rahul Das,rahul.das@company.com,Product,Business Analyst,EMP002,Chennai,2020-11-29,ACTIVE
+EMP020,Anjali Rao,anjali.rao@company.com,Product,QA Engineer,EMP002,Chennai,2021-01-05,ACTIVE
+EMP021,Sanjay Sharma,sanjay.sharma@company.com,Product,Data Analyst,EMP002,Chennai,2021-02-11,ACTIVE
+EMP022,Pooja Patel,pooja.patel@company.com,Product,DevOps Engineer,EMP002,Chennai,2021-03-20,ACTIVE
+EMP023,Gokul Reddy,gokul.reddy@company.com,Finance,Developer,EMP003,Chennai,2021-04-26,ACTIVE
+EMP024,Nisha Gupta,nisha.gupta@company.com,Finance,Senior Developer,EMP003,Chennai,2021-06-02,ACTIVE
+EMP025,Vivek Joshi,vivek.joshi@company.com,Finance,Business Analyst,EMP003,Chennai,2021-07-09,ACTIVE
+EMP026,Swati Verma,swati.verma@company.com,Finance,QA Engineer,EMP003,Chennai,2021-08-15,ACTIVE
+EMP027,Rohit Singh,rohit.singh@company.com,Human Resources,Data Analyst,EMP004,Chennai,2021-09-21,ACTIVE
+EMP028,Divya Nair,divya.nair@company.com,Human Resources,DevOps Engineer,EMP004,Chennai,2021-10-28,ACTIVE
+EMP029,Ajay Das,ajay.das@company.com,Human Resources,Developer,EMP004,Chennai,2021-12-04,ACTIVE
+EMP030,Keerthi Rao,keerthi.rao@company.com,Human Resources,Senior Developer,EMP004,Chennai,2022-01-10,ACTIVE
+EMP031,Naveen Sharma,naveen.sharma@company.com,Sales,Business Analyst,EMP005,Bengaluru,2022-02-16,ACTIVE
+EMP032,Shalini Patel,shalini.patel@company.com,Sales,QA Engineer,EMP005,Bengaluru,2022-03-25,ACTIVE
+EMP033,Prakash Reddy,prakash.reddy@company.com,Sales,Data Analyst,EMP005,Bengaluru,2022-05-01,ACTIVE
+EMP034,Harini Gupta,harini.gupta@company.com,Sales,DevOps Engineer,EMP005,Bengaluru,2022-06-07,ACTIVE
+EMP035,Sathish Joshi,sathish.joshi@company.com,Customer Success,Developer,EMP006,Hyderabad,2022-07-14,ACTIVE
+EMP036,Asha Verma,asha.verma@company.com,Customer Success,Senior Developer,EMP006,Hyderabad,2022-08-20,ACTIVE
+EMP037,Dinesh Singh,dinesh.singh@company.com,Customer Success,Business Analyst,EMP006,Hyderabad,2022-09-26,ACTIVE
+EMP038,Maya Nair,maya.nair@company.com,Customer Success,QA Engineer,EMP006,Hyderabad,2022-11-02,ACTIVE
+EMP039,Ramesh Das,ramesh.das@company.com,Operations,Data Analyst,EMP007,Chennai,2022-12-09,ACTIVE
+EMP040,Isha Rao,isha.rao@company.com,Operations,DevOps Engineer,EMP007,Chennai,2023-01-15,ACTIVE
+EMP041,Srinivas Sharma,srinivas.sharma@company.com,Operations,Developer,EMP007,Chennai,2023-02-21,ACTIVE
+EMP042,Lavanya Patel,lavanya.patel@company.com,Marketing,Senior Developer,EMP008,Bengaluru,2023-03-30,ACTIVE
+EMP043,Ganesh Reddy,ganesh.reddy@company.com,Marketing,Business Analyst,EMP008,Bengaluru,2023-05-06,ACTIVE
+EMP044,Reshma Gupta,reshma.gupta@company.com,Marketing,QA Engineer,EMP008,Bengaluru,2023-06-12,ACTIVE
+EMP045,Varun Joshi,varun.joshi@company.com,Data & Analytics,Data Analyst,EMP009,Chennai,2023-07-19,ACTIVE
+EMP046,Shreya Verma,shreya.verma@company.com,Data & Analytics,DevOps Engineer,EMP009,Chennai,2023-08-25,ACTIVE
+EMP047,Mohan Singh,mohan.singh@company.com,Data & Analytics,Developer,EMP009,Chennai,2023-10-01,ACTIVE
+EMP048,Anu Nair,anu.nair@company.com,Information Security,Senior Developer,EMP010,Hyderabad,2023-11-07,ACTIVE
+EMP049,Hari Das,hari.das@company.com,Information Security,Business Analyst,EMP010,Hyderabad,2023-12-14,ACTIVE
+EMP050,Preethi Rao,preethi.rao@company.com,Information Security,QA Engineer,EMP010,Hyderabad,2024-01-20,ACTIVE
