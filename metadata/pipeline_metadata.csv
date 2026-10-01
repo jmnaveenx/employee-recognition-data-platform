@@ -1,5 +1,0 @@
-dataset_name,source_file,source_format,load_type,target_layer,target_table,primary_key,active
-employees,employees.csv,CSV,FULL,BRONZE,employees,employee_id,Y
-departments,departments.csv,CSV,FULL,BRONZE,departments,department_id,Y
-recognition,recognition.csv,CSV,INCREMENTAL,BRONZE,recognition,recognition_id,Y
-recognition_rules,recognition_rules.csv,CSV,FULL,BRONZE,recognition_rules,rule_id,Y
