@@ -1,0 +1,86 @@
+Day 5 — CTE, CASE and NULL Handling
+Topics Covered
+- CTE
+- CASE
+- IS NULL
+- IS NOT NULL
+- COALESCE()
+CTE
+CTE means Common Table Expression.
+Basic structure:
+WITH cte_name AS (
+    SELECT ...
+    FROM ...
+    WHERE ...
+)
+SELECT *
+FROM cte_name;
+
+Example:
+WITH salary_seq1 AS (
+    SELECT name, salary, department
+    FROM employees
+    WHERE salary > 80000
+)
+SELECT *
+FROM salary_seq1
+WHERE department = 'IT';
+
+Why use CTE?
+A CTE is useful for:
+- readability
+- breaking complex SQL into steps
+- creating an intermediate result
+- combining transformations
+- making SQL easier to maintain
+A CTE is not required simply because the result contains multiple rows.
+CASE
+CASE allows conditional logic in SQL.
+Example:
+CASE
+    WHEN salary >= 85000 THEN 'High'
+    ELSE 'Low'
+END AS salary_category
+
+Multiple conditions:
+CASE
+    WHEN salary >= 85000 THEN 'High'
+    WHEN salary >= 70000 THEN 'Medium'
+    ELSE 'Low'
+END AS salary_category
+
+Important:
+CASE
+WHEN condition THEN result
+ELSE result
+END
+
+NULL Handling
+Check for NULL:
+WHERE salary IS NULL;
+
+Check for non-NULL:
+WHERE salary IS NOT NULL;
+
+Do not use:
+salary = NULL
+
+Use:
+salary IS NULL
+
+COALESCE
+COALESCE() returns the first non-NULL value.
+Example:
+COALESCE(city, 'Unknown') AS city_display
+
+If:
+city = Chennai
+
+result:
+Chennai
+
+If:
+city = NULL
+
+result:
+Unknown
